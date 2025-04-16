@@ -28,7 +28,8 @@ bit.ly/L4GWorkshop
 - The shell will display your active project ID.
   ![image](https://github.com/user-attachments/assets/4c4f75a4-c01e-49c0-8453-2af623a2fce4)
 
-> ⚠️ If you don't see a project ID, raise your hands we will try to resolve it :] ..
+
+###⚠️ If you don't see a project ID, raise your hands we will try to resolve it :] ..
 
 ---
 
