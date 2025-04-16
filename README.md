@@ -5,10 +5,7 @@ This guide helps you deploy the **YouTube Summarizer** app to Google Cloud Run.
 ---
 
 ## 🚀 Prerequisites
-1. Open your L4G Process Document.
-```bash
-bit.ly/L4GWorkshop
-```
+1. Open your L4G Process Document. ([bit.ly/L4GWorkshop](https://docs.google.com/document/u/0/d/14Qc921t8DxpqdHzHinwovwWJtR9e70WD_ktAe8qX3fs/mobilebasic))
 2. You must have access to a Google Cloud account.
 3. You must have `gcloud` CLI installed and authenticated.
 4. Enable billing on your GCP project.
