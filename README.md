@@ -259,8 +259,7 @@ If everything goes fine, you will see:
 
 Along with a URL like:
 
-> '**https://youtube-summarizer-xyz123.a.run.app/**'
-
+> `https://youtube-summarizer-xyz123.a.run.app/`
 ---
 
 ## ✅ Final Check
