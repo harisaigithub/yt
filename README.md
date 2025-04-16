@@ -44,10 +44,14 @@ nano youtubesummarize.sh
 Paste the following content into the opened editor:
 
 ```bash
+
 #!/bin/bash
 
+# Set this manually or export it before running the script
+# Example: export PROJECT_ID="your-project-id"
 PROJECT_ID=$(gcloud config get-value project)
 
+# Exit if project is not set
 if [ -z "$PROJECT_ID" ]; then
   echo "❌ GCP Project ID not set. Please run: gcloud config set project [PROJECT_ID]"
   exit 1
@@ -57,9 +61,11 @@ APP_NAME="youtube-summarizer"
 REGION="us-central1"
 SERVICE_NAME="youtube-summarizer"
 
+# Step 1: Create working directory
 mkdir -p $APP_NAME/templates
 cd $APP_NAME
 
+# Step 2: Create index.html
 cat <<'EOF' > templates/index.html
 <!DOCTYPE html>
 <html>
@@ -117,6 +123,7 @@ cat <<'EOF' > templates/index.html
 </html>
 EOF
 
+# Step 3: Create requirements.txt
 cat <<EOF > requirements.txt
 Flask==2.3.3
 requests==2.31.0
@@ -124,6 +131,7 @@ debugpy
 google-genai==1.2.0
 EOF
 
+# Step 4: Create app.py
 cat <<EOF > app.py
 import os
 from flask import Flask, render_template, request, redirect
@@ -190,6 +198,7 @@ if __name__ == '__main__':
    app.run(debug=False, port=server_port, host='0.0.0.0')
 EOF
 
+# Step 5: Create Dockerfile
 cat <<EOF > Dockerfile
 FROM python:3.10-slim
 WORKDIR /app
@@ -199,18 +208,21 @@ COPY . .
 CMD ["python", "app.py"]
 EOF
 
+# Step 6: Enable necessary APIs
 echo "⏳ Enabling required Google Cloud APIs..."
 gcloud services enable aiplatform.googleapis.com \
                        run.googleapis.com \
                        cloudbuild.googleapis.com \
                        cloudresourcemanager.googleapis.com
 
+# Step 7: (Optional) Local Testing Setup
 echo "🔧 Creating virtual environment for local testing..."
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 deactivate
 
+# Step 8: Deploy to Cloud Run
 echo "🚀 Deploying to Cloud Run..."
 gcloud run deploy $SERVICE_NAME \
   --source . \
@@ -219,7 +231,7 @@ gcloud run deploy $SERVICE_NAME \
   --project=$PROJECT_ID
 
 echo "✅ Deployment complete!"
-EOF
+
 ```
 
 Save and exit:
