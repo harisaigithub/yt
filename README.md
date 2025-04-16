@@ -268,4 +268,4 @@ Open the generated URL in a browser. You should see the **YouTube Summarizer** a
 
 You’ve successfully deployed your app to Google Cloud Run.
 
-> **Made with 💚 by RAVI, HARI, RUTHWIK**
+> **Made with 💚 by RAVI, HARI, RUTHWIK** @team-L4G
