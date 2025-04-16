@@ -20,13 +20,13 @@ bit.ly/L4GWorkshop
 ### 1. Select or Create a GCP Project
 - Go to [Google Cloud Console](https://console.cloud.google.com/).
 - Select an existing project or click on **"New Project"** to create one.
-- ![image](https://github.com/user-attachments/assets/336e918d-dad3-44df-9ded-199a6340301e)
+  ![image](https://github.com/user-attachments/assets/336e918d-dad3-44df-9ded-199a6340301e)
 - Once selected, click the terminal icon (cloud shell) on the top-right to open the console.
-- ![image](https://github.com/user-attachments/assets/4331cf1d-d86e-4a86-b8e0-3802e649d73d)
+  ![image](https://github.com/user-attachments/assets/4331cf1d-d86e-4a86-b8e0-3802e649d73d)
 - Click **Continue** and **Authorize** if prompted.
-- ![image](https://github.com/user-attachments/assets/2f63f6c2-55c6-445d-8301-cc2bb4eb1457)
+  ![image](https://github.com/user-attachments/assets/2f63f6c2-55c6-445d-8301-cc2bb4eb1457)
 - The shell will display your active project ID.
-![image](https://github.com/user-attachments/assets/4c4f75a4-c01e-49c0-8453-2af623a2fce4)
+[image](https://github.com/user-attachments/assets/4c4f75a4-c01e-49c0-8453-2af623a2fce4)
 
 > ⚠️ If you don't see a project ID, raise your hands we will try to resolve it :] ..
 
