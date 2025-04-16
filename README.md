@@ -1,6 +1,12 @@
 # yt
+#DEPLOY
+
+```
+nano yt.sh
+```
 
 
+```
 #!/bin/bash
 
 # Set this manually or export it before running the script
@@ -187,3 +193,13 @@ gcloud run deploy $SERVICE_NAME \
  --project=$PROJECT_ID
 
 echo "✅ Deployment complete!"
+
+
+```
+```
+chmod +x yt.sh
+```
+```
+./yt.sh
+```
+
