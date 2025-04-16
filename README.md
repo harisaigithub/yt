@@ -26,7 +26,7 @@ bit.ly/L4GWorkshop
 - Click **Continue** and **Authorize** if prompted.
   ![image](https://github.com/user-attachments/assets/2f63f6c2-55c6-445d-8301-cc2bb4eb1457)
 - The shell will display your active project ID.
-[image](https://github.com/user-attachments/assets/4c4f75a4-c01e-49c0-8453-2af623a2fce4)
+  ![image](https://github.com/user-attachments/assets/4c4f75a4-c01e-49c0-8453-2af623a2fce4)
 
 > ⚠️ If you don't see a project ID, raise your hands we will try to resolve it :] ..
 
