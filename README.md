@@ -38,7 +38,7 @@ bit.ly/L4GWorkshop
 Run this command in the terminal:
 
 ```bash
-nano ytubesummarize.sh
+nano youtubesummarize.sh
 ```
 
 Paste the following content into the opened editor:
@@ -231,7 +231,7 @@ Save and exit:
 ### 3. Make the Script Executable
 
 ```bash
-chmod +x ytubesummarize.sh
+chmod +x youtubesummarize.sh
 ```
 
 ---
@@ -239,7 +239,7 @@ chmod +x ytubesummarize.sh
 ### 4. Run the Script
 
 ```bash
-./ytubesummarize.sh
+./youtubesummarize.sh
 ```
 
 If everything goes fine, you will see:
