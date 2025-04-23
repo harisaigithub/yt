@@ -5,9 +5,9 @@ This guide helps you deploy the **YouTube Summarizer** app to Google Cloud Run.
 ---
 
 ## 🚀 Prerequisites
-1. Open your L4G Process Document. [bit.ly/L4GWorkshop](https://docs.google.com/document/u/0/d/14Qc921t8DxpqdHzHinwovwWJtR9e70WD_ktAe8qX3fs/mobilebasic)
-2. Navigate through this Process Document to complete the prerequisites ([https://tinyurl.com/l4gprerequisites](https://vvitguntur-my.sharepoint.com/:b:/g/personal/22bq5a4213_vvit_net/EWf5yXQqheJMq776JOsm8HoBjx1YNyhSstH5PtT3vFAhAw?e=5VFS5M))
-3. To Claim the credits(only after completion of registration) DOC. ([https://tinyurl.com/l4gcredits](https://vvitguntur-my.sharepoint.com/:b:/g/personal/22bq5a4213_vvit_net/EU8_-DFd1VJAm_eFNCnQTxsBDWQasMScNYf_lg7S6RMnLQ?e=6fsA6O))
+1. Open your L4G Process Document. [bit.ly/L4GWorkshop](https://docs.google.com/document/u/0/d/14Qc921t8DxpqdHzHinwovwWJtR9e70WD_ktAe8qX3fs/mobilebasic)  _(opens in same tab — right-click to open in new tab)_
+2. Navigate through this Process Document to complete the prerequisites ([https://tinyurl.com/l4gprerequisites](https://vvitguntur-my.sharepoint.com/:b:/g/personal/22bq5a4213_vvit_net/EWf5yXQqheJMq776JOsm8HoBjx1YNyhSstH5PtT3vFAhAw?e=5VFS5M))  _(opens in same tab — right-click to open in new tab)_
+3. To Claim the credits(only after completion of registration) DOC. ([https://tinyurl.com/l4gcredits](https://vvitguntur-my.sharepoint.com/:b:/g/personal/22bq5a4213_vvit_net/EU8_-DFd1VJAm_eFNCnQTxsBDWQasMScNYf_lg7S6RMnLQ?e=6fsA6O))  _(opens in same tab — right-click to open in new tab)_
 4. You must have access to a Google Cloud account.
 5. You must have `gcloud` CLI installed and authenticated.
 6. Enable billing on your GCP project. 
@@ -17,7 +17,7 @@ This guide helps you deploy the **YouTube Summarizer** app to Google Cloud Run.
 ## 📌 Steps to Deploy
 
 ### 1. Select or Create a GCP Project
-- Go to [Google Cloud Console](https://console.cloud.google.com/).
+- Go to [Google Cloud Console](https://console.cloud.google.com/).  _(opens in same tab — right-click to open in new tab)_
 - Select an existing project or click on **"New Project"** to create one.
   ![image](https://github.com/user-attachments/assets/336e918d-dad3-44df-9ded-199a6340301e)
 - Once selected, click the terminal icon (cloud shell) on the top-right to open the console.
