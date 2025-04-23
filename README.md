@@ -5,7 +5,7 @@ This guide helps you deploy the **YouTube Summarizer** app to Google Cloud Run.
 ---
 
 ## 🚀 Prerequisites
-1. Open your L4G Process Document. ([bit.ly/L4GWorkshop](https://docs.google.com/document/u/0/d/14Qc921t8DxpqdHzHinwovwWJtR9e70WD_ktAe8qX3fs/mobilebasic))
+1. Open your L4G Process Document. <a href="https://docs.google.com/document/u/0/d/14Qc921t8DxpqdHzHinwovwWJtR9e70WD_ktAe8qX3fs/mobilebasic" target="_blank">bit.ly/L4GWorkshop</a>
 2. Navigate through this Process Document to complete the prerequisites ([https://tinyurl.com/l4gprerequisites](https://vvitguntur-my.sharepoint.com/:b:/g/personal/22bq5a4213_vvit_net/EWf5yXQqheJMq776JOsm8HoBjx1YNyhSstH5PtT3vFAhAw?e=5VFS5M))
 3. To Claim the credits(only after completion of registration) DOC. ([https://tinyurl.com/l4gcredits](https://vvitguntur-my.sharepoint.com/:b:/g/personal/22bq5a4213_vvit_net/EU8_-DFd1VJAm_eFNCnQTxsBDWQasMScNYf_lg7S6RMnLQ?e=6fsA6O))
 4. You must have access to a Google Cloud account.
